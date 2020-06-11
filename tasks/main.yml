@@ -1,0 +1,8 @@
+---
+
+- name: Set the ansible package state
+  set_fact:
+    ansible_package_state: "present"
+
+- name: Setup ansible
+  include_tasks: "setup-{{ ansible_distribution }}.yml"

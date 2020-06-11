@@ -1,0 +1,6 @@
+---
+
+- name: Install epel-release and ansible
+  yum:
+    name: ['epel-release', 'ansible']
+    state: "{{ ansible_package_state }}"

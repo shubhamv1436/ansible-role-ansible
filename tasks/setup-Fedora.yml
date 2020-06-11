@@ -1,0 +1,6 @@
+---
+
+- name: Install ansible
+  dnf:
+    name: ansible
+    state: "{{ ansible_package_state }}"
