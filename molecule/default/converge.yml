@@ -4,4 +4,4 @@
   become: true
 
   roles:
-    - role: shubhamv1436.ansible-role-ansible
+    - role: shubhamv1436.ansible

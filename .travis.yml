@@ -14,8 +14,8 @@ install:
 
 before_script:
     - cd ../
-    - mv ansible-role-$ROLE_NAME shubhamv1436.ansible-role-$ROLE_NAME
-    - cd shubhamv1436.ansible-role-$ROLE_NAME
+    - mv ansible-role-$ROLE_NAME shubhamv1436.$ROLE_NAME
+    - cd shubhamv1436.$ROLE_NAME
 
 script:
     - molecule test
