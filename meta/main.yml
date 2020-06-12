@@ -2,6 +2,7 @@
 
 galaxy_info:
   author: Shubham Vaishnav
+  role_name: ansible
   description: Ansible for CentOS/Fedora/Ubuntu
   license: license (BSD, MIT)
   min_ansible_version: 2.4
