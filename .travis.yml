@@ -7,7 +7,10 @@ env:
         - ROLE_NAME: ansible
     matrix:
         - MOLECULE_DISTRO: centos7
+        - MOLECULE_DISTRO: ubuntu1604
         - MOLECULE_DISTRO: ubuntu1804
+        - MOLECULE_DISTRO: fedora27
+        - MOLECULE_DISTRO: fedora29
 
 install:
     - pip install molecule yamllint ansible-lint docker
